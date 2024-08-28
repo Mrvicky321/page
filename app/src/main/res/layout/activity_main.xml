@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="356dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="21dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/baseline_view_headline_24" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:text="Search"
+            android:textColor="#D0CACA" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="177dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/baseline_mic_24" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="14dp"
+        android:text="New Releases"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="319dp"
+        android:layout_marginTop="-19dp"
+        android:text="MORE"
+        android:textColor="#161515"
+        android:textSize="13dp" />
+
+    <LinearLayout
+        android:layout_width="169dp"
+        android:layout_height="249dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="21dp"
+        android:background="@color/white">
+
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="277dp"
+            android:layout_marginTop="-51dp"
+            android:src="@drawable/mod" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-213dp"
+            android:layout_marginTop="191dp"
+            android:text="Mauris sagi..."
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-119dp"
+            android:layout_marginTop="211dp"
+            android:text="Kodaline"
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="202dp"
+            android:src="@drawable/vip" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="169dp"
+        android:layout_height="249dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-248dp"
+        android:background="@color/white">
+
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="249dp"
+            android:layout_marginTop="-42dp"
+            android:src="@drawable/imm" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-211dp"
+            android:layout_marginTop="189dp"
+            android:text="Aliquam"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-119dp"
+            android:layout_marginTop="211dp"
+            android:text="One Republic"
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="202dp"
+            android:src="@drawable/vip" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="39dp"
+        android:text="Recommended"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="319dp"
+        android:layout_marginTop="-29dp"
+        android:text="MORE"
+        android:textColor="#161515"
+        android:textSize="13dp" />
+
+    <LinearLayout
+        android:layout_width="108dp"
+        android:layout_height="154dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="29dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:layout_marginTop="-4dp"
+            android:src="@drawable/pro3" />
+
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-95dp"
+            android:layout_marginTop="117dp"
+            android:text="Curabit..."
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="108dp"
+        android:layout_height="154dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="-155dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:layout_marginTop="-4dp"
+            android:src="@drawable/pro3" />
+
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-95dp"
+            android:layout_marginTop="117dp"
+            android:text="Quisque"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="105dp"
+        android:layout_height="154dp"
+        android:layout_marginLeft="258dp"
+        android:layout_marginTop="-155dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:layout_marginTop="-4dp"
+            android:src="@drawable/pro3" />
+
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-95dp"
+            android:layout_marginTop="117dp"
+            android:text="Aliqua..."
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="149dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="18dp"
+        android:text="Top Rated"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="319dp"
+        android:layout_marginTop="-19dp"
+        android:text="MORE"
+        android:textColor="#161515"
+        android:textSize="13dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="11dp"
+        android:background="#494545">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/recent" />
+
+        <TextView
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-35dp"
+            android:layout_marginTop="29dp"
+            android:text="Recents"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="239dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/loca" />
+
+        <TextView
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-35dp"
+            android:layout_marginTop="29dp"
+            android:text="Nearby"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-179dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/dil" />
+
+        <TextView
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-35dp"
+            android:layout_marginTop="29dp"
+            android:text="Favoritites"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
